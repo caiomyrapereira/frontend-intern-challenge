@@ -1,0 +1,35 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+    height: 10%;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.footer,
+.push {
+    height: 25px;
+}
+
+.footer {
+    bottom: 0%;
+    text-align: center;
+}
+
+.home-img {
+    height: 100%;
+    width: 100%;
+}
+
+.home-img img {
+    height: 100%;
+    width: 100%;
+}
