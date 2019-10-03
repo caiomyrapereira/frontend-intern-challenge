@@ -1,0 +1,14 @@
+.home-img {
+    height: 100%;
+    width: 100%;
+}
+
+.home-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.header .logoTipo {
+    position: relative;
+    top: 40%;
+}
