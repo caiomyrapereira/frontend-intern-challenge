@@ -37,3 +37,13 @@ div .hits {
     height: 200px;
     text-align: center;
 }
+
+.triangulo-para-baixo {
+    position: relative;
+    left: 45%;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid white;
+}
