@@ -1,0 +1,35 @@
+/* media Mobile */
+
+@media screen and (max-width: 600px) {
+    figcaption {
+        position: absolute;
+        text-align: center;
+        color: white;
+        top: 10%;
+        left: 0;
+        width: 100%;
+    }
+    .footer a {
+        position: relative;
+        right: 30%;
+        bottom: 60%;
+        font-family: 'Roboto', sans-serif;
+        color: #AA1423;
+        font-size: 25px;
+    }
+    .alinha {
+        margin: 0 auto;
+        width: 90%;
+    }
+    li var {
+        position: absolute;
+        color: #777;
+        left: 90%;
+        font-family: 'Roboto', sans-serif;
+    }
+    .triangulo-para-baixo {
+        border-left: 25px solid transparent;
+        border-right: 25px solid transparent;
+        border-top: 25px solid white;
+    }
+}

@@ -9,6 +9,15 @@ body {
     height: 10%;
 }
 
+figcaption {
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 32%;
+    left: 0;
+    width: 100%;
+}
+
 .wrapper {
     min-height: 100%;
     margin-bottom: -50px;
@@ -26,15 +35,25 @@ body {
 div .top5 {
     display: inline-block;
     width: 100%;
-    height: 300px;
-    text-align: center;
+    height: 325px;
+}
+
+.alinha {
+    margin: 0 auto;
+    width: 50%;
+    /* Altere para o valor da largura desejada. */
+}
+
+.alinha hr {
+    border: 0.7px solid #EEE;
+    width: 100%;
 }
 
 div .hits {
     display: inline-block;
     background-color: #EEE;
     width: 100%;
-    height: 200px;
+    height: 250px;
     text-align: center;
 }
 
