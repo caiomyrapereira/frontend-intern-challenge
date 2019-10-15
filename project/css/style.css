@@ -18,6 +18,32 @@ figcaption {
     width: 100%;
 }
 
+figcaption form input {
+    position: relative;
+    top: 30px;
+    right: 1.5%;
+    width: 35%;
+    height: 30px;
+    background-color: transparent;
+    border-style: none none solid none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #fe6f14;
+    border-color: #fe6f14;
+}
+
+figcaption form button {
+    position: relative;
+    top: 30px;
+    width: 100px;
+    height: 35px;
+    background-color: #fe6f14;
+    border-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: white;
+}
+
 .wrapper {
     min-height: 100%;
     margin-bottom: -50px;
