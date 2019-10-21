@@ -1,5 +1,17 @@
 /* media Mobile */
 
+
+/* tablet */
+
+@media screen and (max-width: 1024px) {
+    figcaption {
+        top: 20%;
+    }
+}
+
+
+/* Mobile */
+
 @media screen and (max-width: 600px) {
     figcaption {
         position: absolute;
@@ -9,13 +21,8 @@
         left: 0;
         width: 100%;
     }
-    .footer a {
-        position: relative;
-        right: 30%;
-        bottom: 60%;
-        font-family: 'Roboto', sans-serif;
-        color: #AA1423;
-        font-size: 25px;
+    figcaption form input {
+        font-size: 14px;
     }
     .alinha {
         margin: 0 auto;
@@ -37,5 +44,13 @@
     }
     figcaption p {
         font-size: 10px;
+    }
+    .footer a {
+        position: relative;
+        right: 30%;
+        bottom: 60%;
+        font-family: 'Roboto', sans-serif;
+        color: #AA1423;
+        font-size: 25px;
     }
 }
