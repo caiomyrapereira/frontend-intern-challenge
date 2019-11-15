@@ -28,12 +28,6 @@
         margin: 0 auto;
         width: 90%;
     }
-    li var {
-        position: absolute;
-        color: #777;
-        left: 90%;
-        font-family: 'Roboto', sans-serif;
-    }
     .triangulo-para-baixo {
         border-left: 25px solid transparent;
         border-right: 25px solid transparent;

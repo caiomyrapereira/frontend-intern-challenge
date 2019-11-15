@@ -4,9 +4,12 @@ body {
     margin: 0;
 }
 
+
+/*-- header --*/
+
 .header {
     text-align: center;
-    height: 10%;
+    height: 55px;
 }
 
 figcaption {
@@ -44,36 +47,83 @@ figcaption form button {
     color: white;
 }
 
-.wrapper {
-    min-height: 100%;
-    margin-bottom: -50px;
+.home-img {
+    height: 100%;
+    width: 100%;
 }
 
-.footer,
-.push {
-    height: 25px;
+.home-img img {
+    height: 100%;
+    width: 100%;
 }
 
-.footer {
-    bottom: 0%;
+.header .logoTipo {
+    position: relative;
+    top: 40%;
 }
+
+figcaption h1,
+p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* --- Top  5 --- */
 
 div .top5 {
     display: inline-block;
     width: 100%;
-    height: 325px;
+    height: 330px;
 }
 
 .alinha {
+    position: relative;
     margin: 0 auto;
-    width: 50%;
+    width: 34%;
     /* Altere para o valor da largura desejada. */
 }
 
-.alinha hr {
-    border: 0.7px solid #EEE;
+.alinha td {
+    border-bottom: 1px solid #EEE;
     width: 100%;
 }
+
+.alinha .end {
+    text-align: end;
+}
+
+.alinha .last {
+    border-style: none;
+}
+
+tr td {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+td .link {
+    color: #AA1423;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+td span {
+    position: relative;
+    text-align: right;
+    color: #777;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hits h1,
+.top5 h1 {
+    font-family: 'Roboto Slab', serif;
+    color: #AA1423;
+    text-align: center;
+}
+
+
+/* --- hits --- */
 
 div .hits {
     display: inline-block;
@@ -91,4 +141,62 @@ div .hits {
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     border-top: 50px solid white;
+}
+
+.num {
+    background-color: white;
+    border-radius: 7px;
+    border: 0.5px solid;
+    border-color: #777;
+    margin: 0 auto;
+    display: table;
+    height: auto;
+    padding: 10px;
+    color: #AA1423;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 150%;
+}
+
+.hits div p {
+    font-family: 'Roboto', sans-serif;
+    color: #777;
+}
+
+
+/*--- footer ---*/
+
+.footer,
+.push {
+    height: 25px;
+}
+
+.footer {
+    bottom: 0%;
+}
+
+.footer a {
+    position: relative;
+    right: 10%;
+    bottom: 60%;
+    font-family: 'Roboto', sans-serif;
+    color: #AA1423;
+    font-size: 25px;
+}
+
+.footer .facebook {
+    position: relative;
+    left: 75%;
+    bottom: 50%;
+}
+
+.footer .twitter {
+    position: relative;
+    left: 65%;
+    bottom: 50%;
+}
+
+.facebook,
+.twitter {
+    margin: 0 12% 0 0;
 }

@@ -12,4 +12,5 @@ app.get('\teste', function(req, res) {
 })
 app.listen(port, function() {
     console.log('Executando...')
+    console.log('http://localhost:8080')
 })
