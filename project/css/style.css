@@ -24,7 +24,6 @@ figcaption {
 figcaption form input {
     position: relative;
     top: 30px;
-    right: 1.5%;
     width: 35%;
     height: 30px;
     background-color: transparent;
@@ -33,6 +32,10 @@ figcaption form input {
     font-family: 'Roboto', sans-serif;
     color: #fe6f14;
     border-color: #fe6f14;
+}
+
+input::placeholder {
+    color: #fe6f14;
 }
 
 figcaption form button {
@@ -44,6 +47,17 @@ figcaption form button {
     border-style: none;
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
+    color: white;
+}
+
+figcaption form #close {
+    position: relative;
+    top: 28px;
+    right: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    visibility: collapse;
+    text-decoration: none;
     color: white;
 }
 
