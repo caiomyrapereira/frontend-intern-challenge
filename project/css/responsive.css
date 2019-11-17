@@ -1,11 +1,22 @@
-/* media Mobile */
-
-
-/* tablet */
-
-@media screen and (max-width: 1024px) {
+@media screen and (min-height: 1224px) {
+    .header {
+        text-align: center;
+        height: 5%;
+    }
     figcaption {
-        top: 20%;
+        top: 18%;
+    }
+    .home-img {
+        height: 40%;
+    }
+    .top5 {
+        height: 28%;
+    }
+    .alinha {
+        top: 10%;
+    }
+    .hits {
+        height: 22%;
     }
 }
 
@@ -13,13 +24,18 @@
 /* Mobile */
 
 @media screen and (max-width: 600px) {
-    figcaption {
-        position: absolute;
-        text-align: center;
-        color: white;
-        top: 10%;
-        left: 0;
+    .home-img {
+        height: 280px;
         width: 100%;
+    }
+    figcaption {
+        top: 85px;
+    }
+    figcaption h1 {
+        font-size: 16px;
+    }
+    figcaption p {
+        font-size: 12px;
     }
     figcaption form input {
         font-size: 13px;
@@ -32,12 +48,6 @@
         border-left: 25px solid transparent;
         border-right: 25px solid transparent;
         border-top: 25px solid white;
-    }
-    figcaption h1 {
-        font-size: 16px;
-    }
-    figcaption p {
-        font-size: 12px;
     }
     .footer a {
         position: relative;
