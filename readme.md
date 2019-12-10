@@ -1,3 +1,11 @@
+# projeto está localizando na branch CaioMyraPereira
+
+# o link do meu projeto:
+
+ https://github.com/caiomyrapereira/frontend-intern-challenge/tree/CaioMyraPereira
+
+# ////////////////////////////////
+
 # Desafio estagiário: HTML/CSS/JS
 
 > **ATENÇÃO:** Antes de começar, se [cadastre na vaga](https://linxneemuchaordic.recruiterbox.com/) via Recruiterbox **=]**
