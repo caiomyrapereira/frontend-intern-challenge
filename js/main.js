@@ -17,7 +17,7 @@
 
             get: function get() {
                 const ajax = new XMLHttpRequest();
-                const arq = '/Assets/urls.json';
+                const arq = 'https://caiomyrapereira.github.io/frontend-intern-challenge//js/urls.json';
                 ajax.open('GET', arq);
                 ajax.send();
                 ajax.addEventListener('readystatechange', this.response);
