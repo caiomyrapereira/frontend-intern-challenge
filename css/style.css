@@ -120,6 +120,7 @@ td .link {
     color: #AA1423;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
+    text-decoration:none;
 }
 
 td span {
@@ -212,5 +213,12 @@ td span {
 
 .facebook,
 .twitter {
+    cursor:pointer;
     margin: 0 12% 0 0;
+}
+
+/*-- components --*/
+
+button{
+    cursor:pointer;
 }

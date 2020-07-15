@@ -45,6 +45,8 @@
 
                 top5.forEach(function(elem, index) {
                     $links[index].innerHTML = elem.shortUrl;
+                    $links[index].href = elem.url;
+                    $links[index].target = '_blank';
                     $hits[index].innerHTML = app.formatarHits(elem.hits);
                 })
             },
